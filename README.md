@@ -5,5 +5,3 @@ Simple python script that displays a random word with meaning as a windows notif
 words and meaning are taken from majortests.com wordlists.
 
 Dependancies pywin32
-
-Usage :
