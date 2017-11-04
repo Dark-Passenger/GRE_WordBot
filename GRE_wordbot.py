@@ -12,7 +12,7 @@ def WordList(ID):
     meaning = ""
     
     conn = sqlite3.connect('wordlist.db')
-    print("Opened database successfully")
+    print("Opener")
 
     cursor = conn.execute("SELECT WORDS,MEANING from WORDS where ID = %s ;" % (ID) )
     for row in cursor:
